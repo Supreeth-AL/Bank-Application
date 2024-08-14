@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Page</title>
+    <style>
+        body {
+            /* background-color: rgba(208, 237, 226, 0.912); */
+            background-color: rgb(189, 238, 248);
+        }
+
+        .headingofbank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            border-style: outset;
+            border-radius: 7px;
+            height: 37px;
+            padding: 0.2%;
+            background-color: rgba(108, 199, 241, 0.912);
+        }
+
+        .welcome {
+            margin-top: -2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: underline;
+        }
+
+        #loan {
+            display: flex;
+            float: right;
+            width: 45%;
+            margin-right: 13%;
+            margin-top: 2%;
+            border-radius: 5%;
+
+        }
+
+        .loan-page {
+            display: flex;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200%;
+            height: 10%;
+            border-radius: 5px;
+        }
+        #buttons:hover{
+            background-color: rgb(210, 231, 238);
+        }
+
+        .loan-button{
+            margin-top: 2%;
+            margin-left: 20%;
+        }
+
+        #home{
+            margin-top: 5%;
+            margin-left: 20%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2 class="headingofbank">ABC Bank</h2>
+
+    <div class="welcome">
+        <h2>Select the loan which you wish to apply for</h2>
+    </div>
+
+    <div class="loan-page">
+        <div class="loan-button">
+            <button id="buttons" type="button" onclick="location.href='Loan'"> Educational Loan </button>
+
+            <br>
+            <br>
+
+            <button id="buttons" type="button" onclick="location.href='loan'"> Marriage Loan </button>
+
+            <br>
+            <br>
+
+            <button id="buttons" type="button" onclick="location.href='loan'"> House Loan </button>
+
+            <br>
+            <br>
+
+            <button id="buttons" type="button" onclick="location.href='loan'"> Gold Loan </button>
+            <br>
+            <br>
+            <button id="buttons" type="button" onclick="location.href='loan'"> Car Loan </button>
+
+        </div>
+        <div>
+            <img id="loan" src="image/loan.png" alt="bankpic">
+        </div>
+    </div>
+
+
+    <form action="Logout">
+        <button id="home" type="button" onclick="location.href='Home.html'">home</button>
+    </form>
+
+</body>
+
+</html>

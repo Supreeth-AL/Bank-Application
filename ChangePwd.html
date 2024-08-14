@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Password</title>
+    <style>
+        body {
+            /* background-color: rgba(208, 237, 226, 0.912); */
+            background-color: rgb(189, 238, 248);
+        }
+
+        .headingofbank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            border-style: outset;
+            border-radius: 7px;
+            height: 37px;
+            padding: 0.2%;
+            background-color: rgba(108, 199, 241, 0.912);
+        }
+
+        .welcome {
+            margin-top: -2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: underline;
+        }
+
+        .ChangePassword {
+            margin-top: 2%;
+            margin-left: 15%;
+        }
+
+        #home {
+            margin-left: 2%;
+        }
+
+        #password_change {
+            display: flex;
+            float: right;
+            width: 40%;
+            margin-right: 10%;
+            margin-top: 2%;
+            border-radius: 5%;
+        }
+
+        .Change_password_page{
+            display: flex;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2 class="headingofbank">ABC Bank</h2>
+
+    <div class="welcome">
+        <h2>Change Your Password</h2>
+    </div>
+
+    <div class="Change_password_page">
+        <div class="ChangePassword">
+            <form action="ChangePassword">
+                <label class="par10">New Password :</label> <br>
+                <input class="par1" type="password" name="npwd"> <br> <br>
+
+                <label class="par10">Confirm Password :</label> <br>
+                <input class="par2" type="password" name="cpwd"> <br> <br>
+
+                <input id="submit" type="submit" />
+                <button id="home" type="button" onclick="location.href='Home.html'">home</button>
+
+            </form>
+
+        </div>
+        <div>
+            <img id="password_change" src="image/password_chage.png" alt="bankpic">
+        </div>
+    </div>
+</body>
+
+</html>

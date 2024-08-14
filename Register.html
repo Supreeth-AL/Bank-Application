@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+
+            background-color: rgb(189, 238, 248);
+        }
+
+        .headingofbank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            border-style: outset;
+            border-radius: 7px;
+            height: 37px;
+            padding: 0.2%;
+            background-color: rgba(108, 199, 241, 0.912);
+        }
+
+        .welcome {
+            margin-top: 2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: underline;
+        }
+
+        .form {
+            margin-left: 10%;
+        }
+
+        #bankpic {
+            display: flex;
+            float: right;
+            width: 40%;
+            margin-top: 2%;
+            margin-right: 18%;
+            border-radius: 5%;
+        
+          
+
+        }
+
+        .Register{
+            display: flex;
+
+        }
+
+        #submit{
+            margin-top: 2%;
+            border-radius: 5px;
+            background-color: rgba(199, 230, 243, 0.912);
+            margin-right: 2%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h3 class="headingofbank">ABC Bank</h3>
+
+
+    <h2 class="welcome">Please key in your Detail</h2>
+
+
+    <form action="Register">
+        <div class="Register">
+            <div class="form">
+
+                <label class="par10">Name :</label>
+                <input id="par1" type="text" name="name"> <br><br>
+
+
+
+                <label class="par10">CustId :</label>
+                <input id="par2" type="text" name="custid"> <br><br>
+
+
+
+                <label class="par10">Accno :</label>
+                <input id="par3" type="text" name="accno"> <br><br>
+
+
+
+                <label class="par10">Password :</label>
+                <input id="par4" type="password" name="pwd"> <br><br>
+
+
+                <label class="par10">Balance :</label>
+                <input id="par5" type="text" name="bal"> <br><br>
+
+
+
+                <label class="par10">Email :</label>
+                <input id="par6" type="text" name="email"> <br><br>
+
+
+                <input  id="submit" type="submit" />
+
+                <button id="submit" type="button" onclick="location.href='welcome.html'">back</button>
+            </div>
+            <div>
+                <img id="bankpic" src="image/mobile-bank.jpg" alt="bankpic">
+            </div>
+        </div>
+
+    </form>
+
+
+
+</body>
+
+</html>

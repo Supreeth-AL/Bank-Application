@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            /* background-color: rgba(208, 237, 226, 0.912); */
+           background-color: rgb(189, 238, 248); 
+        }
+
+        .headingofbank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            border-style: outset;
+            border-radius: 7px;
+            height: 37px;
+            padding: 0.2%;
+            background-color: rgba(108, 199, 241, 0.912);
+        }
+
+        .welcome{
+            margin-top: -2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: underline;
+        }
+
+
+        #bankpic{
+            display: flex;
+            float: right;
+            width: 45%;
+            margin-right: 13%;
+            margin-top: 2%;
+            border-radius: 5%;
+
+        }
+
+       
+
+       
+
+        .Welcome{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            margin-left: 15%;
+            margin-top:5%;
+            /* border-style: outset; */
+            width: 200%;
+           
+
+        }
+
+        .registration {
+            float: left;
+            width: 18%;
+            padding: 3%;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(199, 230, 243, 0.912);
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2 class="headingofbank">ABC Bank</h2>
+
+    <div class="welcome">
+        <h2>Wellcome to ABC Bank</h2>
+    </div>
+
+    <div style="display: flex;">
+
+        <div class="Welcome">
+            <button type="button" onclick="location.href='Register.html'"> <img class="registration"
+                    src="image/registration.png" alt="registration"> Click here to Register</button>
+            <br>
+            <br>
+            <button type="button" onclick="location.href='Login.html'"> <img class="registration" src="image/login.png"
+                    alt=""> Click here to Login</button>
+        </div>
+
+        <div >
+            <img id="bankpic" src="image/bank.jpg" alt="bankpic">
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- <a href="Register.html">
+    <span class="thick-symbol1 ">&gt;</span>
+    Click here to Register
+</a>
+
+
+<a href="Login.html"> <span class="thick-symbol1 ">&gt;</span> Click here to Login </a> -->

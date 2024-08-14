@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Success</title>
+    <style>
+        body {
+
+            background-color: rgb(189, 238, 248);
+        }
+
+        .headingofbank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            border-style: outset;
+            border-radius: 7px;
+            height: 37px;
+            padding: 0.2%;
+            background-color: rgba(108, 199, 241, 0.912);
+        }
+
+        .welcome {
+            margin-top: 2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: underline;
+        }
+
+        #bankpic {
+            display: flex;
+            float: right;
+            width: 40%;
+            margin-top: 2%;
+            margin-right: 15%;
+            border-radius: 5%;
+        }
+
+        .home {
+            display: flex;
+        }
+
+        #direction {
+            display: block;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1%;
+            margin-left: 10%;
+
+        }
+
+
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200%;
+            border-radius: 5px;
+           
+        }
+
+        #buttons:hover{
+            cursor: pointer;
+            
+        }
+
+        .button_icon {
+            float: left;
+            width: 15%;
+            margin-right: 10%;
+            padding: 1%;
+        }
+
+        #submit{
+            margin-left: 10%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h3 class="headingofbank">ABC Bank</h3>
+
+    <h2 class="welcome">Registration to the Bank is SuccessFul</h2>
+    <div class="home">
+
+        <div id="direction">
+
+
+            <button id="buttons" type="button" onclick="location.href='Checkbalance'"> <img class="button_icon"
+                    src="image/bank_balance.png" alt="bank_balance">Check Balance
+            </button>
+
+            <br>
+            <br>
+
+            <button id="buttons" type="button" onclick="location.href='ChangePwd.html'"> <img class="button_icon"
+                    src="image/reset.png" alt="reser_password"> Change Password</button>
+
+            <br>
+            <br>
+
+            <button id="buttons" type="button" onclick="location.href='Transfer.html'"> <img class="button_icon"
+                    src="image/money-transfer.png" alt="money_transfer"> Transfer Amount</button>
+
+            <br>
+            <br>
+
+            <button id="buttons" type="button" onclick="location.href='GetStatement'"> <img class="button_icon"
+                    src="image/bank-statement.png" alt="bank_statement"> Bank Statement</button>
+
+            <br>
+            <br>
+
+            <button id="buttons" type="button" onclick="location.href='AppliyLoan.html'"> <img class="button_icon" src="image/loan.png" alt="apply_loan"> Apply Loan</button>
+
+        </div>
+        <div>
+            <img id="bankpic" src="image/online-bank.jpg" alt="bankpic">
+        </div>
+    </div>
+
+    <br><br>
+
+    <form action="Logout">
+        <input id="submit" type="submit" value="Logout" />
+    </form>
+
+</body>
+
+</html>

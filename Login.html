@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+
+            background-color: rgb(189, 238, 248);
+        }
+
+        .headingofbank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            border-style: outset;
+            border-radius: 7px;
+            height: 37px;
+            padding: 0.2%;
+            background-color: rgba(108, 199, 241, 0.912);
+        }
+
+        .welcome {
+            margin-top: 2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: underline;
+        }
+
+        #bankpic {
+            display: flex;
+            float: right;
+            width: 40%;
+            margin-top: 2%;
+            margin-right: 18%;
+            border-radius: 5%;
+        }
+
+        .form {
+            margin-top: 5%;
+            margin-left: 15%;
+        }
+
+        .Register{
+            display: flex;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <h3 class="headingofbank">ABC Bank</h3>
+
+
+    <h2 class="welcome">Dear Customer, Please Enter your details to login</h2>
+
+
+
+    <form action="Login">
+        <div class="Register">
+            <div class="form">
+                <label id="custid">CustId :</label> <br>
+                <input class="input1" type="text" name="custid"> <br> <br>
+
+                <label id="custid2">Password:</label> <br>
+                <input class="input2" type="password" name="pwd"> <br> <br>
+
+
+                <input id="submit" type="submit" />
+
+            </div>
+
+            <div>
+                <img id="bankpic" src="image/login1.png" alt="bankpic">
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
