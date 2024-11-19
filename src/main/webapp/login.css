@@ -1,0 +1,90 @@
+:root {
+    --color1: rgb(0, 128, 128);
+    --color2: rgb(250, 240, 230);
+    --color3: rgba(58, 58, 158, 0.8);
+    --color4: rgba(136, 136, 206, 0.7);
+    --color5: white;
+}
+
+body{
+    overflow: hidden;
+}
+
+.outline {
+    margin: 10px;
+    margin-top: -10px;
+    
+}
+
+.Register {
+    margin: 20px 5% 20px;
+    
+    display: flex;
+}
+
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 25%;
+
+    margin: 70px 7% auto;
+    padding: 15px;
+}
+
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.labels-container {
+    flex: 1;
+    font-size: 26px;
+    padding: 10px 0;
+    margin-right: 15px;
+    text-align: left;
+}
+
+#inputs {
+    flex: 0.3;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+#submit , #home{
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    border-radius: 9px;
+    margin-top: 50px;
+    width:150px ;
+    height: 40px;
+    border: 0px;
+    font-size: 17px;
+}
+
+.homesbuttons{
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    
+    width: 70%;
+   
+    margin-top:50px ;
+    
+}
+
+.outline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

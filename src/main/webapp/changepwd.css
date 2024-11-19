@@ -1,0 +1,68 @@
+.outline{
+    margin: 10px 10% 10px; 
+    width: 80%;
+   
+    display: flex;
+}
+
+.container{
+    margin: 20px;
+    
+    width: 800px;
+    height: 120px;
+    padding: 20px;
+    
+}
+
+.block{
+    display: flex;
+    gap: 30%;
+    justify-items: center;
+    align-items: center;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.labels-container {
+    flex: 1;
+    font-size: 26px;
+    padding: 10px 0;
+    margin-right: 15px;
+    text-align: left;
+}
+
+#inputs {
+    flex: 0.3;
+    padding: 10px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 300px;
+}
+
+.buttons{
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+
+#submit , #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 40px;
+    border-radius: 9px;
+    border: 0px;
+    margin: 20px;
+    margin-left: 60px;
+   
+}

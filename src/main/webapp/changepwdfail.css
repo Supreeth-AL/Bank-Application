@@ -1,0 +1,32 @@
+.changePwdFail > img{
+    width: 20%;
+    
+    border-radius: 9px;
+}
+
+.changePwdFail{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homedirectory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.homedirectory > button{
+    width: 90px;
+    height: 35px;
+    border-radius: 9px;
+    border: 0px;
+    font-size: 16px;
+}
+
+.homedirectory > button:hover{
+    background-color: aliceblue;
+}

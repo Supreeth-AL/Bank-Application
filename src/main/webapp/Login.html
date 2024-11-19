@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <header>Bank of AB'c</header>
+    <main>
+        <div class="headline">
+            <h2>Please key in your Detail</h2>
+        </div>
+        <form action="Login">
+            <div class="outline">
+                <div class="loginpage">
+                    <div class="form-item">
+                        <label class="labels-container">CustId :</label>
+                        <input id="inputs" type="text" name="custid" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="labels-container">Password:</label>
+                        <input id="inputs" type="password" name="pwd" required>
+                    </div>
+
+                    <div class="homesbuttons">
+                        <input id="submit" type="submit" />
+                        <button id="home" type="button" onclick="location.href='Welcome.html'">welcome Page</button>
+                    </div>
+                </div>
+
+                <div class="block-2">
+                    <img src="images/enter2.png" alt="LoginIcon">
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change password</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="changepwd.css">
+
+</head>
+
+<body>
+    <header>Bank of AB'c</header>
+    <main>
+        <div class="headline">
+            <h2>Please Enter New Password</h2>
+        </div>
+        <div class="outline">
+            <div class="changepassword">
+                <form action="ChangePassword">
+                    <div class="block">
+                        <div class="container">
+
+                            <div class="form-item">
+                                <label class="labels-container">New Password :</label> <br>
+                                <input id="inputs" type="password" name="npwd"> <br> <br>
+                            </div>
+
+                            <div class="form-item">
+                                <label class="labels-container">Confirm Password :</label> <br>
+                                <input id="inputs" type="password" name="cpwd"> <br> <br>
+                            </div>
+
+                        </div>
+                        <div class="images">
+                            <img src="images/lock.png" alt="ResetPassword">
+                        </div>
+
+                    </div>
+
+                    <div class="buttons">
+                        <input id="submit" type="submit" />
+                        <button id="home" type="button" onclick="location.href='Home.html'">home</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

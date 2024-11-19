@@ -1,0 +1,35 @@
+.homebutton {
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.homebutton>button {
+    width: 9%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 9px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+}
+
+.outline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 300px;
+}
+
+.loansuccess{
+    font-size: 35px;
+    margin: 3% 2% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+    width: 80%;
+}

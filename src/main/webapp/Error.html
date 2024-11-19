@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-login Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="relogin.css">
+</head>
+
+<body>
+    <header>Bank of AB'c</header>
+    <main>
+        <div class="headline">
+            <h2>Invalid Data !!, Please Enter your details to login</h2>
+        </div>
+
+        <form action="Login">
+            <div class="outline">
+                <div class="relogin">
+                    <div class="form-item">
+                        <label class="labels-container">CustId</label>
+                        <input id="inputs" type="text" name="custid" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="labels-container">Password</label>
+                        <input id="inputs" type="password" name="pwd" required>
+                    </div>
+
+                    <div class="buttons">
+                        <input type="submit" id="submit" value="Submit" />
+
+                        <button id="registration" type="button" onclick="location.href='Register.html'"
+                            class="registration">Register</button>
+                    </div>
+                </div>
+
+                <div class="block-2">
+                    <img src="images/enter2.png" alt="LoginIcon">
+                </div>
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>

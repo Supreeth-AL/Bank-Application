@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Amount Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="transfer.css">
+</head>
+
+<body>
+    <header>Bank of AB'c</header>
+    <main>
+        <div class="headline">
+            <h2>Please Enter Amount to transfer</h2>
+        </div>
+
+        <form action="Transfer">
+            <div class="outline">
+                <div class="moneytransfer">
+                    <div class="form-item">
+                        <label class="labels-container">Accno :</label>
+                        <input id="inputs" type="text" name="raccno" required>
+                    </div>
+                    <div class="form-item">
+                        <label class="labels-container">Amount :</label>
+                        <input id="inputs" type="text" name="amt" required>
+                    </div>
+
+                   
+
+                    <input id="submit" type="submit" />
+                    <button id="home" type="button" onclick="location.href='Home.html'">home</button>
+                </div>
+
+                <div class="transfermoney">
+                    <img src="images/money-transfer.png" alt="">
+                </div>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

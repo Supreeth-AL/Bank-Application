@@ -1,0 +1,35 @@
+.outline{
+    margin: 10px 8% auto;
+}
+
+.form-item{
+    margin: 6%;
+}
+
+.form-item > h3{
+    font-size: 27px;
+    color: white;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:180px ;
+    height: 40px;
+    margin:15px 20px 15px;
+    border-radius: 9px;
+    font-size: 20px;
+    margin-left: 40px;
+    
+   
+}
+
+.block-1 img{
+    width: 25px;
+    padding-right: 4px;
+}
+
+/* .form-item > button{
+    margin: 10px;
+} */

@@ -1,0 +1,62 @@
+.outline {
+    margin-top: 10px;
+    margin-left: 5%;
+
+    width: 88%;
+    display: flex;
+    gap: 23%;
+}
+
+.applyloan {
+    margin: 20px;
+    margin-left: 11%;
+
+    width: 23%;
+    border-radius: 9px;
+    display: block;
+    justify-items: center;
+    background: linear-gradient(150deg,
+            var(--color3),
+            var(--color4));
+
+}
+
+.form-item {
+    margin: 20px;
+
+}
+
+button {
+    width: 180px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 9px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+
+}
+
+.bankpicture {
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+}
+
+.bankpicture>img {
+    width: 70%;
+    border: 0px;
+    border-radius: 9px;
+
+}
+
+.homebutton {
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.homebutton>button {
+    width: 9%;
+}
